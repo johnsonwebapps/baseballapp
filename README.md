@@ -1,4 +1,4 @@
 baseballapp
 ===========
 
-baseball app excersie
+baseball app exercise 
