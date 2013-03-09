@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'pg'
 gem 'nokogiri'
-
+gem 'jquery-datatables-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,7 +22,7 @@ group :assets do
   gem "therubyracer"
   gem "less-rails"
   gem 'twitter-bootstrap-rails'
-  gem 'jquery-datatables-rails'
+  
 end
 
 gem 'jquery-rails'
