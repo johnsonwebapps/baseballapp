@@ -96,10 +96,6 @@ class PlayersController < ApplicationController
       @player = Player.new
       @player.surname = i.xpath('SURNAME').text
       @player.givenname = i.xpath('GIVEN_NAME').text
-      puts "THE AVG IS ^^^^^^^^^^^^^^^^^^^^ "
-      @avg = battingaverage
-      puts @avg
-      @player.average = @avg
       @player.games = i.xpath('GAMES').text 
       @player.atbats = @atbats
       @player.runs = i.xpath('RUNS').text
