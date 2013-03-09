@@ -21,12 +21,12 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem "therubyracer"
   gem "less-rails"
-  
+  gem 'jquery-datatables-rails'
+  gem 'twitter-bootstrap-rails'
   
 end
 gem 'jquery-rails'
-gem 'jquery-datatables-rails'
-gem 'twitter-bootstrap-rails'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
