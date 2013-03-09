@@ -29295,3 +29295,159 @@ Served asset /bootstrap.js - 200 OK (1ms)
 
 Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-03-09 08:44:36 -0500
 Served asset /players.js - 200 OK (1ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-03-09 09:29:36 -0500
+Connecting to database specified by database.yml
+Processing by PlayersController#index as HTML
+  Rendered players/index.html.erb within layouts/application (216.0ms)
+Compiled dataTables/jquery.dataTables.css  (36ms)  (pid 5963)
+Compiled bootstrap_and_overrides.css  (624ms)  (pid 5963)
+Compiled players.css  (0ms)  (pid 5963)
+Compiled scaffolds.css  (9ms)  (pid 5963)
+Compiled application.css  (687ms)  (pid 5963)
+Compiled jquery.js  (2ms)  (pid 5963)
+Compiled jquery_ujs.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 5963)
+Compiled twitter/bootstrap.js  (100ms)  (pid 5963)
+Compiled dataTables/jquery.dataTables.js  (3ms)  (pid 5963)
+Compiled bootstrap.js  (56ms)  (pid 5963)
+Compiled players.js  (2ms)  (pid 5963)
+Compiled application.js  (250ms)  (pid 5963)
+Completed 200 OK in 3057ms (Views: 1301.4ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /scaffolds.css - 200 OK (8ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /players.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /dataTables/jquery.dataTables.css - 200 OK (7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /bootstrap_and_overrides.css - 200 OK (29ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:39 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:40 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:40 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:40 -0500
+Served asset /twitter/bootstrap.js - 200 OK (16ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:40 -0500
+Served asset /dataTables/jquery.dataTables.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:40 -0500
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-03-09 09:29:40 -0500
+Served asset /players.js - 200 OK (1ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-03-09 10:53:15 -0500
+Connecting to database specified by database.yml
+Processing by PlayersController#index as HTML
+  Rendered players/index.html.erb within layouts/application (216.2ms)
+Compiled dataTables/jquery.dataTables.css  (109ms)  (pid 7049)
+Compiled bootstrap_and_overrides.css  (597ms)  (pid 7049)
+Compiled players.css  (1ms)  (pid 7049)
+Compiled scaffolds.css  (20ms)  (pid 7049)
+Compiled application.css  (842ms)  (pid 7049)
+Compiled jquery.js  (2ms)  (pid 7049)
+Compiled jquery_ujs.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 7049)
+Compiled twitter/bootstrap.js  (246ms)  (pid 7049)
+Compiled dataTables/jquery.dataTables.js  (3ms)  (pid 7049)
+Compiled bootstrap.js  (47ms)  (pid 7049)
+Compiled players.js  (7ms)  (pid 7049)
+Compiled application.js  (434ms)  (pid 7049)
+Completed 200 OK in 3463ms (Views: 1723.0ms | ActiveRecord: 6.7ms)
