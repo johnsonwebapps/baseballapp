@@ -25,7 +25,7 @@ group :assets do
   
 end
 gem 'jquery-rails'
-gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
+gem 'jquery-datatables-rails'
 gem 'twitter-bootstrap-rails'
 
 # To use ActiveModel has_secure_password
