@@ -12,11 +12,11 @@ XML/DATABASE
 
 I originally thought about importing the xml document data into a Postgres database, as the plan is to have 75 years worth of individual player statistics. 
 
-In my opinion xml documents should not be used as a database and it seems one of the goals of this project would be do perform statistical analysis and reporting for these players data. A database such as Postgres would be a better fit to persist the data. 
+In my opinion xml documents should not be used as a database and it seems one of the goals of this project would be to perform statistical analysis and reporting for the player data. A database such as Postgres would be a better fit to persist the data. 
 
-I spent time looking into importing the xml document to Postgres, but after about 15 minutes of not finding a quick solution I decided to just parse the xml for the POC.
+I spent time looking into importing the xml document to Postgres, but after about 15-30 minutes of not finding a quick solution I decided to just parse the xml for the POC.
 
-I did start to think about the data model and start a few migrations with an initial pass at some of the relationships. Ultimately I found my self spending too much time thinking about the overall goal of the application and decided to move forward to complete the POC.
+I did start to think about the data model and started a few migrations and Models with an initial pass at some of the relationships. Ultimately I found my self spending too much time thinking about the overall goal of the application and decided to move forward to complete the POC.
 
 CONTROLLER METHODS
 

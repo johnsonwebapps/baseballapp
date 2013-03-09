@@ -28577,3 +28577,147 @@ Served asset /dataTables/forward_disabled.png - 304 Not Modified (0ms)
 
 Started GET "/assets/dataTables/forward_enabled.png" for 127.0.0.1 at 2013-03-09 07:22:07 -0500
 Served asset /dataTables/forward_enabled.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/players" for 127.0.0.1 at 2013-03-09 07:59:16 -0500
+Connecting to database specified by database.yml
+Processing by PlayersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - /1998statistics.xml):
+  app/controllers/players_controller.rb:86:in `initialize'
+  app/controllers/players_controller.rb:86:in `open'
+  app/controllers/players_controller.rb:86:in `playersXML'
+  app/controllers/players_controller.rb:6:in `index'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/chris/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-03-09 07:59:38 -0500
+Processing by PlayersController#index as HTML
+  Rendered players/index.html.erb within layouts/application (212.0ms)
+Completed 200 OK in 2180ms (Views: 314.1ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /application.css - 304 Not Modified (52ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /players.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /dataTables/jquery.dataTables.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /players.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-09 07:59:41 -0500
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/dataTables/sort_both.png" for 127.0.0.1 at 2013-03-09 07:59:42 -0500
+Served asset /dataTables/sort_both.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/dataTables/sort_desc.png" for 127.0.0.1 at 2013-03-09 07:59:42 -0500
+Served asset /dataTables/sort_desc.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dataTables/back_disabled.png" for 127.0.0.1 at 2013-03-09 07:59:42 -0500
+Served asset /dataTables/back_disabled.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dataTables/forward_disabled.png" for 127.0.0.1 at 2013-03-09 07:59:42 -0500
+Served asset /dataTables/forward_disabled.png - 304 Not Modified (33ms)
+
+
+Started GET "/assets/dataTables/forward_enabled.png" for 127.0.0.1 at 2013-03-09 07:59:42 -0500
+Served asset /dataTables/forward_enabled.png - 304 Not Modified (2ms)

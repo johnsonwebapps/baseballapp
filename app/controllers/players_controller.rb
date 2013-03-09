@@ -83,7 +83,7 @@ class PlayersController < ApplicationController
   # GET all the players from the xml document
   # TODO would probably re-factor this to the model
   def playersXML
-    doc = Nokogiri::XML(File.open("/Users/chris/dev/baseballapp/1998statistics.xml"))
+    doc = Nokogiri::XML(File.open(Rails.root.to_s+"/1998statistics.xml"))
     
     @players = []
     doc.xpath('//PLAYER').map do |i| 
