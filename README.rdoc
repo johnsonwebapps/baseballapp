@@ -1,0 +1,42 @@
+A few notes while developing the baseball sample application
+
+SUMMARY
+
+I had fun with the exercise. There are plenty of opportunities for refactoring, but I needed to time box this activity. A few notables comments (which are listed below). As part of this activity I found a great tool called DataTables that I can use in future projects, so if your not already using it you may want to investigate for your self. http://www.datatables.net/
+
+I spent a lot of time thinking about how to consume the data persist it to a database, which was probably time not well spent at the moment because this was a POC for a client, but I like to get a solid technical direction before coding. 
+
+Below are a few comments I wrote down while going through the exercise.
+
+XML/DATABASE 
+
+I originally thought about importing the xml document data into a Postgres database, as the plan is to have 75 years worth of individual player statistics. 
+
+In my opinion xml documents should not be used as a database and it seems one of the goals of this project would be do perform statistical analysis and reporting for these players data. A database such as Postgres would be a better fit to persist the data. 
+
+I spent time looking into importing the xml document to Postgres, but after about 15 minutes of not finding a quick solution I decided to just parse the xml for the POC.
+
+I did start to think about the data model and start a few migrations with an initial pass at some of the relationships. Ultimately I found my self spending too much time thinking about the overall goal of the application and decided to move forward to complete the POC.
+
+CONTROLLER METHODS
+
+Created a method in the controller called playersXML to keep the index method more readable. I would refactor this based on the move to the database.
+
+I have a method in the controller called 'battingaverage' that I was going to use to calculate the batting average before I sent the data to the view. Again, this would be refactored as wee looked to persist to a database and do the math and store the average in the database, so we could avoid this calculation each time for individual players.
+
+VIEWS
+
+I decided to look for a solution that would make the pagination and sorting easy. I experimented with a few options, but settled on DataTables - http://www.datatables.net/
+
+DataTables is a JQuery plugin that allows for sorting, searching, and pagination easily. It also can be used for data from various sources, so as we look to move toward a database we could easily change the data source. 
+
+I not currently happy with doing the average calculation in the view at the moment, but as mentioned previously I was having trouble keeping the float value, so I made a decision to get the POC complete to do the calculation in the view knowing we would move this to the database as we make the app more suitable for production.
+
+TESTING
+
+My excuse for not adding tests at this point is not a valid excuse, so I will not provide one. Bottom line I spent about 3 hours on this POC and really just needed to move on. Most of my time was spent thinking about the database solution how best to setup an automated processes to consume the xml and store into a database. I also spent at least an hour looking into the best way to present the view (DataTables).
+	
+	
+	
+
+ 

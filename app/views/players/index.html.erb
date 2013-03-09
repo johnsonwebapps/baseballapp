@@ -1,0 +1,57 @@
+<%- model_class = Player -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+</div>
+<div id="pagination" class="pagination">
+	</div>
+<table id="players" class="table table-striped">
+  <thead>
+    <tr>
+      
+      <th><%= model_class.human_attribute_name(:surname) %></th>
+      <th><%= model_class.human_attribute_name(:givenname) %></th>
+      <th><%= model_class.human_attribute_name(:average) %></th>
+      <th><%= model_class.human_attribute_name(:games) %></th>
+      <th><%= model_class.human_attribute_name(:atbats) %></th>
+      <th><%= model_class.human_attribute_name(:runs) %></th>
+      <th><%= model_class.human_attribute_name(:hits) %></th>
+      <th><%= model_class.human_attribute_name(:rbi) %></th>
+      <th><%= model_class.human_attribute_name(:pb) %></th>
+      <th><%= model_class.human_attribute_name(:walks) %></th>
+      <th><%= model_class.human_attribute_name(:struckout) %></th>
+      <th><%= model_class.human_attribute_name(:hitbypitch) %></th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <% @players.each do |player| %>
+      <tr>
+        
+        <td><%= player.surname %></td>
+		<td><%= player.givenname %></td>
+		
+		<% if !player.atbats.nil?  && player.atbats.to_i > 0 %>
+		<td><%= player.hits.to_f/player.atbats.to_f %></td>
+		<% else %>
+		<td>--</td>
+		<% end %>
+		<td><%= player.games %></td>
+		<td><%= player.atbats %></td>
+		<td><%= player.runs %></td>
+		<td><%= player.hits %></td>
+		<td><%= player.rbi %></td>
+		<td><%= player.pb %></td>
+		<td><%= player.walks %></td>
+		<td><%= player.struckout %></td>
+		<td><%= player.hitbypitch %></td>
+        
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_player_path,
+            :class => 'btn btn-primary' %>

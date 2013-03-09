@@ -1,0 +1,41 @@
+<%- model_class = Player -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:surname) %>:</strong></dt>
+  <dd><%= @player.surname %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:givenname) %>:</strong></dt>
+  <dd><%= @player.givenname %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:games) %>:</strong></dt>
+  <dd><%= @player.games %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:atbats) %>:</strong></dt>
+  <dd><%= @player.atbats %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:runs) %>:</strong></dt>
+  <dd><%= @player.runs %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:hits) %>:</strong></dt>
+  <dd><%= @player.hits %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:rbi) %>:</strong></dt>
+  <dd><%= @player.rbi %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:pb) %>:</strong></dt>
+  <dd><%= @player.pb %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:walks) %>:</strong></dt>
+  <dd><%= @player.walks %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:struckout) %>:</strong></dt>
+  <dd><%= @player.struckout %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:hitbypitch) %>:</strong></dt>
+  <dd><%= @player.hitbypitch %></dd>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              players_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_player_path(@player), :class => 'btn' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              player_path(@player),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>
